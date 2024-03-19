@@ -1,0 +1,140 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Yatay taşmayı engeller */
+
+}
+
+header {
+    display: flex; /* Öğeleri yatay düzlemde hizalar */
+    justify-content: space-between; /* Öğeleri eşit aralıklarla hizalar */
+    align-items: center; /* Öğeleri dikeyde ortalar */
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.title {
+    margin-left: -40rem; /* Başlık ile logo arasında boşluk */
+}
+
+.logo img {
+    width: 100px; /* Logo genişliği */
+    height: auto; /* Genişliğe göre otomatik yükseklik */
+    border-radius: 50%; /* Resmi daire şeklinde yapar */
+
+}
+
+nav ul {
+    list-style-type: none; /* Liste işaretlerini kaldırır */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Menü öğelerini yatayda hizalar */
+    margin-right: 20px; /* Menü öğeleri arasında boşluk */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+aside img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Resmi orijinal boyutlarını korurken, resmi kapsayacak şekilde boyutlandırır */
+    display: block; /* Resmi blok element olarak ayarlama */
+    text-decoration: none;
+    border-radius: 50%; /* Resmi daire şeklinde yapar */
+
+}
+
+
+.main {
+    margin-left: 220px; /* Main içeriğin sağa kaydırılması */
+    padding: 20px;
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+article {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    height: 6rem;
+    text-align: center;
+}
+
+footer p {
+    margin-top: -40px; /* p elementinin altındaki boşluğu belirli bir miktar bırakır */
+    margin-left: 50rem;
+
+}
+
+footer h2 {
+    margin-top: -60px;
+    margin-left: -55rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #333; /* Resim çerçevesi */
+    padding: 5px; /* Resim içeriği ile çerçeve arasındaki boşluk */
+}
+
+.item img {
+    width: 300px;
+    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #333;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.item:hover img {
+    transform: scale(1.05); /* Üzerine gelindiğinde biraz büyütme efekti */
+}
+
+.item-info {
+    padding: 10px;
+    white-space: nowrap; /* Metnin satır atlamasını önler */
+    overflow: hidden; /* Taşan içeriğin görünmemesini sağlar */
+    text-overflow: ellipsis; /* Taşan metnin sonunu "..." ile kısaltır */
+    width: 294px;
+    overflow-wrap: break-word; /* Kelimeleri uygun yerlerde kırar */
+    color: #fff;
+    background-color: #1a1a1a;
+    text-align: center; /* Yazıyı yatayda ortalamak için */
+
+
+}
+
+.item-info h3 {
+    font-size: 16px; /* Film ismi için daha küçük bir punto */
+    margin: 0;
+}
+
+.item-info p {
+    font-size: 14px; /* Diğer bilgiler için daha küçük bir punto */
+    margin: 0;
+}

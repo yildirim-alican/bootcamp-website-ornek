@@ -1,0 +1,58 @@
+prompt 1
+
+Bir on web geliştiricisi olarak hareket etmenizi istiyorum. 
+Proje için şu araçları kullanarak yeni bir web sitesi kodlayacaksınız: 
+HTML, CSS için CDN'yi kullanan Bootstrap çerçevesi ve JavaScript. 
+Web sitesi mobil uyumlu ve duyarlı olmalıdır. 
+Ayrıca düzen ve stil açısından site yapısında Twitter Bootstrap CSS sınıflarının en son sürümünü de içermelidir. 
+HTML, CSS ve Javascript kodlarini ayri ciktilar olarak vermen onemlidir.
+Ayrıca sayfa içeriğindeki başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisiniz. 
+Yazdığınız kodların hiçbirine açıklama yapmayın. 
+Her şeyi anlıyor musun? 
+Tüm gereklilikleri anlıyorsanız lütfen evet veya hayır şeklinde yanıt verin
+
+prompt 2
+
+websitem bir porfolio galeri websitesi ve burada film onerileri paylasmak istiyorum
+websitemde bulunmasini istedigim etiketler (header, main, nav, section, article, aside, footer) seklindedir.
+sayfami iceriginde navigasyonla baglantili bir logo olmasini istiyorum ayni sekilde bu logodan bir adette footer bolumunde olmasini istiyorum.
+sayfanin iceriginin galeri gorunumunde her bir izgarada 4 adet olmak uzere 200x300 boyutlarinda resimler yer almasini ve yukledigim icerigin goruntusunun kirpilmamasini istiyorum.
+resimlerin uzerine gelindiginde bir gecis efektine sahip olmasi guzel bir detay olur.
+bana bu websitesini olusturmamda yardimci olur musun ?
+
+prompt 3
+
+film isimlerinin arka planina siyah bir arka plan ekle ve yazi stil engini beyaza cevirir misin?
+ayrica logo boyutunu 300x300 boyutuna getir ve sol tarafa dayali hale getir misin 
+ayrica navigasyon bolumunu sol tarafa dayali hale getir misin....
+
+prompt 4 
+
+article icerisinde yer alan resimleri bir cerceve icerisine alip 2px kalinliginda cerceve olusturur musun? 
+bunlara bagli olarak ayni islemi gorsele ait film bilgilerinin bulundugu kismida dahil eder misin
+
+prompt 5
+   .
+   .
+   .
+prompt 6
+   .
+   .
+   .
+
+
+Resim olusturmak icin
+
+prompt 1
+
+arka plani siyah bir kara tahta gorunumunde olan uzerine tebesir ile
+film kamerasi yer alan bir gorsel
+
+prompt 2
+
+arka plani siyah bir kara tahta gorunumunde olan uzerine tebesir ile
+film produksiyon ogelerinin yer aldigi mail kutusu olan bir gorsel 
+
+prompt 3 
+
+a cat on rocket
