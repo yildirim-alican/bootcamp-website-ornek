@@ -5,7 +5,7 @@ Proje için şu araçları kullanarak yeni bir web sitesi kodlayacaksınız:
 HTML, CSS için CDN'yi kullanan Bootstrap çerçevesi ve JavaScript. 
 Web sitesi mobil uyumlu ve duyarlı olmalıdır. 
 Ayrıca düzen ve stil açısından site yapısında Twitter Bootstrap CSS sınıflarının en son sürümünü de içermelidir. 
-HTML, CSS ve Javascript kodlarini ayri ciktilar olarak vermen onemlidir.
+HTML, CSS ve Javascript kodlarini ayrı çıktılar olarak vermen önemlidir.
 Ayrıca sayfa içeriğindeki başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisiniz. 
 Yazdığınız kodların hiçbirine açıklama yapmayın. 
 Her şeyi anlıyor musun? 
